@@ -1,0 +1,120 @@
+html
+{
+    scroll-behavior: smooth;
+}
+body{
+    height: 100%;
+    margin:0;
+}
+
+    .header
+{
+    background-image:url(/images/IN-en-20220329-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    background-size:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+}
+  
+
+
+    .header .overlay
+    {
+        background-color: rgba(0, 0, 0, 0.575);
+    }
+    
+
+.head{
+    display: inline-block;
+    margin-left:1100px;
+    margin-top: 40px;
+}
+
+.header .overlay .head #lang 
+{
+    padding: 8px;
+    padding-left: 10px;
+    width: 100px;
+    background-color:rgba(0, 0, 0, 0.541);
+    color: black;
+    border-color: white;
+    color: white;
+  
+}
+.header .overlay .head #sign-in
+{
+    background-color: #e50914;
+    color: white;
+    border: none;
+    padding: 9px;
+    padding-left: 10px;
+    width: 70px;
+    border-radius: 4px;
+    margin-left: 30px;
+
+}
+#logo
+{
+    height:180px;
+    width:180px;
+    color: red;
+    margin-top: -100px;
+    
+}
+.header .overlay h1
+{
+    color:white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.5em;
+}
+.header .overlay h3
+{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: relative;
+    margin-top:50px;
+    font-size:1.5em;
+}
+.header .overlay h5
+{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: relative;
+    font-size:1.3em;
+}
+.header .overlay input
+{
+    justify-content: center;
+    margin-left: 360px;
+    padding: 20px;
+    width: 500px;
+    font-size: 1.3em;
+    border: none;
+    
+}
+.header .overlay input a
+{
+    border: none;
+}
+.header .overlay #get-started
+{
+    background-color: #e50914;
+    color: white;
+    border: none;
+    padding: 17px;
+    width: 180px;
+    height: 66px;
+    text-align: center;
+    font-size: 1.5em;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+.header .overlay #foot p {
+    color:transparent ;
+}
